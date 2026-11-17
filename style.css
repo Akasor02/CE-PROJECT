@@ -1,0 +1,165 @@
+h1{
+     font-family: "Press Start 2P", system-ui;
+    text-align: center;
+    text-shadow: 5px 5px black;
+    background-color: #f8f8c7;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid #78a871;
+    color: #4b7145;
+}
+.Port:hover{
+    background-color:#3d3d3d;
+}
+.ZONE:hover{
+    background-color:#3d3d3d;
+    color: white;
+}
+
+
+.Port.expand3{
+    color: white;
+
+}
+
+body{
+    background-image: url(https://i.pinimg.com/736x/3c/8a/e6/3c8ae6eca4cbce77dfbfd8bf5af19869.jpg);
+    background-color: rgb(44, 44, 44);
+}
+.Card.expand{
+    width: 900px;
+}
+
+.Card2.expand2{
+    width: 580px;
+    transform: translateX(1000px);
+    transition: 2s;
+}
+
+.img{
+    position: absolute;
+    display:hidden;
+    left :15px;
+}
+
+.Card {
+    z-index: 9999;
+     position: absolute;
+    display:hidden;
+    /* left :15px; */
+    width: 400px;
+    height: 400px;
+    background-color: #f8f8c7;
+    border: 5px solid #78a871;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    transition: width 1s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden; 
+    justify-content: flex-end;
+    box-shadow: 5px 5px;
+}
+
+.Beau {
+    background-color: #ffffff;
+    border: 5px solid #78a871;
+    border-radius: 10px;
+    
+}
+.Text {
+     font-family: "Russo One", sans-serif;
+    font-size: 30px;
+    overflow: hidden;
+    transition-delay: 2s;
+}
+.Card3{
+        background-color: #f8f8c7;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid #78a871;
+}
+
+.Cardtext {
+    font-size: 25px;
+    margin:10px;
+
+}
+
+.Card2{
+    width: 400px;
+    height: 400px;
+    background-color: #f8f8c7;
+    border: 5px solid #78a871;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-family : system-ui, "Segoe UI", Tahoma, sans-serif;      
+    font-size: 20px;
+    box-shadow: 5px 5px;
+    overflow: hidden;
+    transition: 1s;
+}
+/* .Card2:hover {
+    cursor: pointer;
+    width: 1050px
+} */
+.Container {
+    display: flex;
+}
+
+.Cardid{
+    font-size: 36px;
+    font-family : system-ui, "Segoe UI", Tahoma, sans-serif;
+}
+
+.box {
+    background-color: #3d3d3d;
+    border: 5px solid #94ff7c;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px;
+}
+
+.Workzone {
+display: flex;
+}
+
+/* .Card:hover {
+    cursor: pointer;
+    width: 1100px
+} */
+
+.Cardid {
+     font-family: "Press Start 2P", system-ui;
+     font-size: 29px;
+}
+
+h1:hover{
+    box-shadow: 5px 5px black;
+}
+.about{
+    font-family: "Russo One", sans-serif;
+    font-size: 30px;
+    
+
+}
+.con{
+   display: flex;
+   gap: 25px;
+   justify-content: center;
+   
+}
+.con2{
+
+}
+
+
+.Intro{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 29px;
+}
